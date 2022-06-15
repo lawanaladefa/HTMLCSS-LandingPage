@@ -18,15 +18,51 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 /** Flex and Alignments **/
-section {display: flex;}
-.flex{display: flex;}
-.flex-column{flex-direction: column;}
-.flex-one{flex: 1;}
-.align-center{align-items: center;}
-.center{justify-content: center;}
-.space-between{justify-content: space-between;}
+section { display: flex; }
+.flex { display: flex; }
+.flex-column { flex-direction: column; }
+.flex-one { flex: 1;}
+.align-center { align-items: center; }
+.center { justify-content: center; }
+.space-between { justify-content: space-between; }
 
-.btn{
+.header-nav{ border-bottom: 1; color:#a0a0a0; }
+.brand { size: 170px 85px; margin-left: -15px 60px;}
+.logo { size: 170px 85px; max-width: 100%; height: auto; }
+
+.search-box {
+    size: 330px 30px;
+    padding: 12px 6px;
+    border: 1px solid #a0a0a0
+}
+
+.search-button { 
+    background-color: #a0a0a0;
+    color: #ffffff;
+    size: 100px 30px;
+    border: 0;
+    padding: 0;
+}
+
+.nav-list { padding: 0; width: 575px; margin-top: 10px; }
+li, a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.profile { margin-left: auto; }
+.account {
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    font-size: 14px;
+}
+.profile-pic { size: 60px 60px; }
+.profile-pic img { border-radius: 100px; max-width: 100%; }
+
+.btn {
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
